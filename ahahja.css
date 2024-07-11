@@ -1,0 +1,81 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #4287f5, #7facf5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 2em;
+    border: 4px solid #000;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 80px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #000;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 2px solid #000;
+    font-size: 1em;
+}
+
+.login-form button {
+    padding: 0.5em;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #444;
+    font-family: "Poppins";
+}
+
+.google-login button {
+    padding: 0.5em;
+    border: 2px solid #000;
+    background-color: #f4f142;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-left: 20px;
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-login button:hover {
+    background-color: #9fe201;
+}
+
+.google-login button:active {
+    background-color: #9bcc2a;
+}
+
+.google-login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
