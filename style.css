@@ -1,0 +1,91 @@
+  body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+  }
+  .page-content {
+    padding-top: 60px; 
+    margin: 15px;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    border-radius: 30px;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it's above other content */
+    transition: top 0.3s; /* Smooth transition when hiding/showing */
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #4287f5;
+    color: black;
+  }
+  /* Responsive navigation */
+  @media screen and (max-width: 600px) {
+    .navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .navbar-right {
+      float: none;
+    }
+  }
+  /* Unique design element */
+  .navbar-logo {
+    float: left;
+    padding: 0px 10px;
+    color: #fff;
+
+    float: left;
+    width: 15vh;
+    z-index: 1000;
+    border-right: 2px solid #555;
+  }
+  /* Optional: Dropdown menu example */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
