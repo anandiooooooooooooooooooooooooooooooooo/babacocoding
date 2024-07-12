@@ -1,14 +1,36 @@
   body {
     padding-left: 75;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins";
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
-    height: 200vh;
+    height: 500vh;
     padding: 0;
     background: linear-gradient(180deg, #4287f5, #7facf5, #16364d);
   }
+  .motivate {
+    margin-top: 350px;
+  }
+.card {
+  margin-top: 30px;
+  width: 0px; 
+  height: 150px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+  background-position: center;
+  background: white;
+  background-size: cover;
+  transition: transform 0.5s;
+.card h3 {
+  text-decoration: none;
+}
+}
 
+.card:hover {
+  transform: translateY(-10px);
+}
   .inti-dari-inti {
     padding-left: 100px;
   }
@@ -115,7 +137,6 @@
     z-index: 1000;
     border-right: 2px solid #555;
   }
-  #dot-1 
   /* Optional: Dropdown menu example */
   .dropdown {
     float: left;
@@ -153,3 +174,60 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  /* Responsive styles */
+@media (min-width: 768px) {
+  .body {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .page-content {
+    width: 90%;
+  }
+
+  .encourage {
+    width: 45%;
+  }
+
+  .motivate {
+    width: 45%;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 26%;
+    margin: 1%;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar a {
+    margin: 5px 0;
+  }
+
+  .navbar-right {
+    margin-top: 10px;
+  }
+  
+  .card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .inti-dari-inti {
+    flex-direction: column;
+  }
+  
+  .page-content, .encourage, .motivate {
+    width: 100%;
+  }
+}
