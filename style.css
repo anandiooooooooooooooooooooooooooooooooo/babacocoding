@@ -127,6 +127,7 @@
       float: none;
     }
   }
+  
   /* Unique design element */
   .navbar-logo {
     float: left;
@@ -174,6 +175,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
   /* Responsive styles */
 @media (min-width: 768px) {
   .body {
