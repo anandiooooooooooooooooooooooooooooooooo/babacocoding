@@ -123,7 +123,28 @@ form .button input:hover{
 .user-details::-webkit-scrollbar{
     width: 10px;
 }
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password img {
+    width: 20px;
+    height: 20px;
+}
+}
+/* }
 .password {
     display: inline-block;
     position: relative;
@@ -141,4 +162,4 @@ form .button input:hover{
     right: 630px;
     width: 24px;
     cursor: pointer;
-}
+} */
