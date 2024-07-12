@@ -23,11 +23,7 @@
   background: white;
   background-size: cover;
   transition: transform 0.5s;
-.card h3 {
-  text-decoration: none;
 }
-}
-
 .card:hover {
   transform: translateY(-10px);
 }
@@ -63,11 +59,10 @@
   .btn {
     display: inline-block;
     padding: 10px 28px;
-    
     outline: none;
     color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 60px;
     font-size: 16px ;
     background: linear-gradient(136deg, #7facf5, #4287f5);
     letter-spacing: 1px;
@@ -175,7 +170,6 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
   /* Responsive styles */
 @media (min-width: 768px) {
   .body {
