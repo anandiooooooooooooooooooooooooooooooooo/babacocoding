@@ -114,7 +114,7 @@
     font-size: 14px;
   }
   .navbar a:hover {
-    background-color: #f9f9f9;
+    color: #f9f9f9;
     color: black;
   }
   /* Responsive navigation */
