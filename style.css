@@ -11,26 +11,38 @@
   .motivate {
     margin-top: 350px;
   }
+    
 .card {
-  margin-top: 30px;
-  width: 0px; 
-  height: 150px;
+  width: 200px;
   display: inline-block;
   border-radius: 10px;
-  padding: 5px 15px;
+  padding: 100px;
+  box-sizing: border-box;
+  margin: 10px 15px;
   cursor: pointer;
-  background-position: center;
+  background-position: right;
   background: white;
   background-size: cover;
   transition: transform 0.5s;
-  text-decoration: none;
-.card h3 {
-  text-decoration: none;
+
 }
+
+.freedebt {
+  mask-image: linear-gradient(270deg, black, transparent);
+  height: 500px;
+  width: 750px;
+  position: absolute;
+  right: 0px;
+  top: 850px;
+}
+.card {
+  margin-left: 50px;
 }
 
 .card:hover {
   transform: translateY(-10px);
+  background: linear-gradient(136deg, violet, blue );
+  transition: 0.5s;
 }
   .inti-dari-inti {
     padding-left: 100px;
@@ -73,10 +85,12 @@
     background: linear-gradient(136deg, #7facf5, #4287f5);
     letter-spacing: 1px;
     text-decoration: none;
-    transition: .5s;
+    transition: transform .5s;
   }
   .btn:hover {
-    background: linear-gradient(180deg, purple, grey)
+    transform: translateY(-10px);
+    background: linear-gradient(136deg, grey, purple)
+
   }
   .navbar {
     float: none;
@@ -112,9 +126,10 @@
     padding: 23px 20px;
     text-decoration: none;
     font-size: 14px;
+    transition: 0.5s;
   }
   .navbar a:hover {
-    color: #f9f9f9;
+    background-color: #f9f9f9;
     color: black;
   }
   /* Responsive navigation */
@@ -136,6 +151,7 @@
     float: left;
     width: 15vh;
     z-index: 1000;
+    border-right: 2px solid #555;
   }
   /* Optional: Dropdown menu example */
   .dropdown {
@@ -230,35 +246,4 @@
   .page-content, .encourage, .motivate {
     width: 100%;
   }
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #1c1c1c;
-  border-top: 1px solid #333;
-}
-
-.footer-logo {
-  font-size: 1.5em;
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-nav {
-  display: flex;
-  gap: 20px;
-}
-
-.footer-nav a {
-  color: #ffd700;
-  text-decoration: none;
-  font-size: 1em;
-  transition: color 0.3s ease;
-}
-
-.footer-nav a:hover {
-  color: #ffffff;
 }
