@@ -131,7 +131,6 @@
     float: left;
     width: 15vh;
     z-index: 1000;
-    border-right: 2px solid #555;
   }
   /* Optional: Dropdown menu example */
   .dropdown {
@@ -226,4 +225,35 @@
   .page-content, .encourage, .motivate {
     width: 100%;
   }
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-top: 1px solid #333;
+}
+
+.footer-logo {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #ffffff;
 }

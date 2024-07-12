@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     background: linear-gradient(135deg, #4287f5, #7facf5);
     display: flex;
     justify-content: center;
@@ -58,10 +58,9 @@ h1 {
     border: 2px solid #000;
     background-color: #f4f142;
     color: #000000;
-    font-size: 1em;
+    font-size: 1;
     cursor: pointer;
-    margin-top: 1em;
-    margin-left: 20px;
+    margin-top: 10px;
     font-family: "Poppins";
     display: flex;
     align-items: center;
