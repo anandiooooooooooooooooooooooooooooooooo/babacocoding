@@ -14,19 +14,78 @@ body {
     height: 500vh;
     padding: 0;
     background: linear-gradient(180deg, #4287f5, #7facf5, #16364d);
+  }
+  .motivate {
+    margin-top: 350px;
+  }
+.card {
+  margin-top: 30px;
+  width: 0px; 
+  height: 150px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+  background-position: center;
+  background: white;
+  background-size: cover;
+  transition: transform 0.5s;
+  text-decoration: none;
+.card h3 {
+  text-decoration: none;
+}
 }
 
-  /* Unique design element */
-.navbar-logo {
-    float: left;
-    padding: 2px 20px;
+.card:hover {
+  transform: translateY(-10px);
+}
+  .inti-dari-inti {
+    padding-left: 100px;
+  }
+  
+  .page-content {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 62px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    padding-top: 120px; 
+    margin: 15px;
+  }
+  .encourage {
+    padding-top: 360px;
+    margin: 15px;
+    width: 100%;
+    align-items: center;
+
+  }
+  .encourage h2 {
+    font-size: 30px;
+  }
+  .encourage p {
+
+    font-size: 25px ;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 28px;
+    
+    outline: none;
     color: #fff;
-    float: left;
-    width: 15vh;
-    z-index: 1000;
-}
-
-.navbar {
+    border: none;
+    border-radius: 10px;
+    font-size: 16px ;
+    background: linear-gradient(136deg, #7facf5, #4287f5);
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: .5s;
+  }
+  .btn:hover {
+    background: linear-gradient(180deg, purple, grey)
+  }
+  .navbar {
     float: none;
     position: absolute;
     top: 50%;
@@ -62,10 +121,8 @@ body {
     padding: 23px 20px;
     text-decoration: none;
     font-size: 14px;
-    transition: color 0.3s ease-in-out;
-}
-
-.navbar a:hover {
+  }
+  .navbar a:hover {
     color: #f9f9f9;
     color: black;
 }
@@ -168,6 +225,17 @@ body {
     padding: 10px 28px;
     outline: none;
     color: #fff;
+    float: left;
+    width: 15vh;
+    z-index: 1000;
+  }
+  /* Optional: Dropdown menu example */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 17px;
     border: none;
     border-radius: 10px;
     font-size: 16px ;
@@ -239,9 +307,33 @@ body {
     }
 }
 
-footer {
-    margin-top: auto;
-    background-color: #1c1c1c;
-    color: #ffffff;
-    padding: 20px 0;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-top: 1px solid #333;
+}
+
+.footer-logo {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #ffffff;
 }
