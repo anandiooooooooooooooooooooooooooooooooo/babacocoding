@@ -1,14 +1,27 @@
   body {
-    font-family: Poppins;
+    padding-left: 75;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     margin: 0;
     height: 200vh;
     padding: 0;
     background: linear-gradient(180deg, #4287f5, #7facf5, #16364d, #171a1c);
   }
+
+  .inti-dari-inti {
+    padding-left: 100px;
+  }
   
   .page-content {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 62px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
     padding-top: 120px; 
-    padding-left: 50px;
     margin: 15px;
   }
   .encourage {
@@ -16,7 +29,6 @@
     margin: 15px;
     width: 100%;
     align-items: center;
-    padding-left: 50px;
 
   }
   .encourage h2 {
@@ -44,23 +56,38 @@
     background: linear-gradient(180deg, purple, grey)
   }
   .navbar {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    margin-top: 70px;
     background: linear-gradient(136deg, #7facf5, #f9f9f9);
     overflow: hidden;
     position: fixed;
     border-radius: 30px;
+    justify-content: center;
     top: 0;
-    width: 100%;
+    width: 90%;
     z-index: 1000; /* Ensures it's above other content */
     transition: top 0.3s; /* Smooth transition when hiding/showing */
+  }
+  .navbar-right {
+    float: right;
+  }
+  .navbar-right login {
+    display: block;
   }
   .navbar a {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 23px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
+    margin-left: 10px;
   }
   .navbar a:hover {
     background-color: #4287f5;
@@ -80,9 +107,8 @@
   /* Unique design element */
   .navbar-logo {
     float: left;
-    padding: 0px 10px;
+    padding: 2px 20px;
     color: #fff;
-
     float: left;
     width: 15vh;
     z-index: 1000;
