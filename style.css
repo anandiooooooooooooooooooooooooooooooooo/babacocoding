@@ -6,7 +6,7 @@
     margin: 0;
     height: 200vh;
     padding: 0;
-    background: linear-gradient(180deg, #4287f5, #7facf5, #16364d, #171a1c);
+    background: linear-gradient(180deg, #4287f5, #7facf5, #16364d);
   }
 
   .inti-dari-inti {
@@ -63,7 +63,7 @@
     transform: translate(-50%, -50%);
     margin: 0 auto;
     margin-top: 70px;
-    background: linear-gradient(136deg, #7facf5, #f9f9f9);
+    background: linear-gradient(180deg, #7facf5, #4287f5);
     overflow: hidden;
     position: fixed;
     border-radius: 30px;
@@ -80,17 +80,18 @@
     display: block;
   }
   .navbar a {
+    font-family: 'Poppins';
     float: left;
+    border-radius: 30px;
     display: block;
     color: white;
     text-align: center;
     padding: 23px 20px;
     text-decoration: none;
     font-size: 14px;
-    margin-left: 10px;
   }
   .navbar a:hover {
-    background-color: #4287f5;
+    background-color: #f9f9f9;
     color: black;
   }
   /* Responsive navigation */
