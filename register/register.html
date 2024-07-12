@@ -8,7 +8,6 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>REGISTER CIHUY</title>
 </head>
-`
 
 <body>
     <div class="container">
@@ -19,52 +18,45 @@
                     <span class="details">Full name</span>
                     <input type="text" placeholder="Enter your name">
                 </div>
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">Email</span>
-                        <input type="text" placeholder="Enter your email">
-                    </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter your email">
                 </div>
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">Phone number</span>
-                        <input type="text" placeholder="Enter your phone number">
-                    </div>
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="text" placeholder="Enter your phone number">
                 </div>
                 <div class="input-box">
                     <span class="details">Password</span>
-                    <input type="text" placeholder="Password" id="password">
-                    <img src="action-hide-password.png" onclick="pass()"
-                    class="pass-icon" id="pass-icon"
+                    <input type="password" placeholder="Password" id="password">
+                    <img src="action-hide-password.png" onclick="pass()" class="pass-icon" id="pass-icon">
                 </div>
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">Confirm password</span>
-                        <input type="text" placeholder="Confirm your password">
-                    </div>
+                <div class="input-box">
+                    <span class="details">Confirm password</span>
+                    <input type="password" placeholder="Confirm your password">
                 </div>
+            </div>
             <div class="gender-details">
-                <input type="radio" name="gender" id="dot-1">
-                <input type="radio" name="gender" id="dot-2">
                 <span class="gender-title">Gender</span>
                 <div class="category">
+                    <input type="radio" name="gender" id="dot-1">
                     <label for="dot-1">
                         <span class="dot one"></span>
-                        <span class="Gender">Male</span>
+                        <span class="gender">Male</span>
                     </label>
+                    <input type="radio" name="gender" id="dot-2">
                     <label for="dot-2">
                         <span class="dot two"></span>
-                        <span class="Gender">Female</span>
+                        <span class="gender">Female</span>
                     </label>
                 </div>
             </div>
             <div class="button">
                 <input type="submit" value="Register">
             </div>
+        </form>
     </div>
-    </form>
-    </div>
-    <script src="register.js"/>
+    <script src="./register.js"></script>
 </body>
 
 </html>
