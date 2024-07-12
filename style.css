@@ -131,7 +131,6 @@
   .navbar a:hover {
     background-color: #f9f9f9;
     color: black;
-<<<<<<< HEAD
 }
 
 .navbar a.active {
@@ -157,8 +156,6 @@
 /* Add animation effect to section elements */
 .section1 {
     transition: transform 0.5s ease-in-out; /* add transition effect to section elements */
-=======
->>>>>>> 8c0853ef1798a6bedb5d9e292a6ad65fd774c53a
   }
   /* Responsive navigation */
   @media screen and (max-width: 600px) {
@@ -170,7 +167,6 @@
     .navbar-right {
       float: none;
     }
-<<<<<<< HEAD
 }
 
 .inti-dari-inti {
@@ -244,13 +240,11 @@
     display: inline-block;
     padding: 10px 28px;
     outline: none;
-=======
   }
   /* Unique design element */
   .navbar-logo {
     float: left;
     padding: 2px 20px;
->>>>>>> 8c0853ef1798a6bedb5d9e292a6ad65fd774c53a
     color: #fff;
     float: left;
     width: 15vh;
