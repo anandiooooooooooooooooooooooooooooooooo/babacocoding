@@ -1,68 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="./register.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>REGISTER CIHUY</title>
-    <link href="./register.css"/>
 </head>
-
 <body>
     <div class="container">
         <div class="title">Registration</div>
         <form action="#">
             <div class="user-details">
                 <div class="input-box">
-                    <label for="fullname" class="details">Full name</label>
-                    <input type="text" id="fullname" placeholder="Enter your name">
+                    <span class="details">Full name</span>
+                    <input type="text" placeholder="Enter your name" required>
                 </div>
+            <div class="user-details">
                 <div class="input-box">
-                    <label for="email" class="details">Email</label>
-                    <input type="email" id="email" placeholder="Enter your email">
-                </div>
-                <div class="input-box">
-                    <label for="phone" class="details">Phone number</label>
-                    <input type="tel" id="phone" placeholder="Enter your phone number">
-                </div>
-                <div class="input-box">
-                    <label for="password" class="details">Password</label>
-                    <input type="password" id="password" placeholder="Password">
-                    <span class="toggle-password" onclick="togglePasswordVisibility()">
-                        <img src="eye-open.png" alt="Toggle Password Visibility" id="eye-icon">
-                    </span>
-                </div>
-                <div class="input-box">
-                    <label for="password" class="details">Confirm Password</label>
-                    <input type="password" id="confirmpassword" placeholder="Password">
-                    <span class="toggle-password" onclick="togglePasswordVisibility()">
-                        <img src="eye-open.png" alt="Toggle Password Visibility" id="eye-icon">
-                    </span>
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter your email" required>
                 </div>
             </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="text" placeholder="Enter your phone number" required>
+                </div>
+            </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter your password" required>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Confirm password</span>
+                    <input type="text" placeholder="Confirm your password" required>
+                </div>
+            </div>
+
             <div class="gender-details">
-                <span class="gender-title">Gender</span>
-                <div class="category">
-                    <input type="radio" id="male" name="gender" checked>
-                    <label for="male">
-                        <span class="dot"></span>
-                        <span class="gender">Male</span>
-                    </label>
-                    <input type="radio" id="female" name="gender">
-                    <label for="female">
-                        <span class="dot"></span>
-                        <span class="gender">Female</span>
-                    </label>
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+            <span class="gender-title">Gender</span>
+
+            <div class="category">
+                <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="Gender">Male</span>
+                </label>
+                <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="Gender">Female</span>
+                </label>
+            </div>
+            </div>
+                <div class="button">
+                    <input type="submit" value="Register">
                 </div>
-            </div>
-            <div class="button">
-                <input type="submit" value="Register">
-            </div>
+            </div>    
         </form>
     </div>
-    <script src="./register.js"></script>
 </body>
-
 </html>

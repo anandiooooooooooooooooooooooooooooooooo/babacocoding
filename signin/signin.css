@@ -30,6 +30,7 @@ h1 {
 }
 
 .login-form input {
+    border-radius: 5px;
     padding: 0.5em;
     margin: 0.5em 0;
     border: 2px solid #000;
@@ -37,6 +38,7 @@ h1 {
 }
 
 .login-form button {
+    border-radius: 60px;
     padding: 0.5em;
     border: 2px solid #000;
     background-color: #000;
@@ -51,6 +53,7 @@ h1 {
 }
 
 .google-login button {
+    border-radius: 60px;
     padding: 0.5em;
     border: 2px solid #000;
     background-color: #f4f142;
